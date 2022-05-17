@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
   </head>
   <body>
     <div class="row">
@@ -16,18 +15,27 @@
       </div>
       <div class="input">
         <span class="input__title">Note:</span>
-        <textarea
-          id="input__note--id"
-          placeholder="Write your notes here"
-          class="inpute__note"
-        ></textarea>
+        <form id="form">
+            <textarea
+              id="input__note--id"
+              placeholder="Write your notes here"
+              class="inpute__note"
+            ></textarea>
+          </div>
+            <div class="btn__wrapper">
+            <input type="submit" value="Add Note" class="btn" id="submit__btn" />
+          </div>
+        </form>
+      <div id="output__main">
+        <p id="output__pre">No notes added yet!</p>
       </div>
-      <div class="btn__wrapper">
-        <input type="submit" value="Add Note" class="btn" id="submit__btn" />
-      </div>
-      <div class="output__main">
-        <p>No notes added yet!</p>
-      </div>
+      <!-- <div class="output__note">
+        <h3>Note 1</h3>
+        <p>Note Text</p>
+        BTN
+      </div> -->
     </div>
   </body>
 </html>
+<script src="./index.js"></script>
+
