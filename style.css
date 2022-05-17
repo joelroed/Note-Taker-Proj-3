@@ -25,11 +25,13 @@
 
 h1 {
     font-size: 56px;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 30px;
     padding: 24px 0;
+    font-weight: 500;
 }
 
 .input {
@@ -39,7 +41,8 @@ h3 {
 }
 
 .input__title {
-    font-size: 30px;
+    font-size: 24px;
+    padding: 0 12px;
 }
 
 .inpute__note {
