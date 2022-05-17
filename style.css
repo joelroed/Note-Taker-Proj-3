@@ -7,8 +7,9 @@
 }
 
 .row {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
+    
 }
 
 .header {
@@ -37,7 +38,7 @@ h3 {
 .input {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 
 .input__title {
@@ -48,7 +49,7 @@ h3 {
 .inpute__note {
     border: 2px rgba(107, 104, 104, 0.103) solid;
     border-radius: 3px;
-    padding-right: 600px;
+    padding-right: 500px;
     padding-bottom: 24px;
     font-size: 16px;
 }
@@ -76,7 +77,30 @@ OUTPUT
 */
 
 .output__note {
-    border: 1px rgba(128, 128, 128, 0.233) solid;
+    border: 1px rgba(128, 128, 128, 0.185) solid;
     border-radius: 3px;
     padding: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    
+}
+
+.output__note--title {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 0 12px 0;
+}
+
+.output__note--act {
+    padding: 0 0 12px 0;
+}
+
+.button {
+    background-color: rgb(29, 92, 228);
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
 }
