@@ -2,6 +2,10 @@ let form = document.querySelector('#form');
 let counterValue = 0;
 
 
+
+
+
+
 form.addEventListener('submit',function(event) {
     event.preventDefault()
     counterValue += 1;
@@ -14,8 +18,10 @@ form.addEventListener('submit',function(event) {
     <div>
     <button class="button open-button"> View Details </button>
     </div>
+    <dialog class="modal" id="modal">${note}</dialog>
   </div>
   </div>
   `
 
 })
+
